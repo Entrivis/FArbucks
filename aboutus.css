@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+/* body{
+    width: 810px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#body{
+    /* width: 100%; */
+    margin-top: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(GbrKopi.jpg);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#header{
+    background: linear-gradient(100deg, #c2946a, #8a6333);
+    display: flex;
+    width: 100%;
+    /* width: 800px; */
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+    padding-left: 20px;
+    padding-right: 25px;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+#bagianheader{
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#headerdalem{
+    display: flex;
+    /* background-color: bisque; */
+    width: 124px;
+    height: 80px;
+    align-items: center;
+}
+
+#txthead{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#txthead:hover{
+    height: 69px;
+}
+
+#gbrbg{
+    width: 100%;
+    height: auto;
+}
+
+#about-us-bg{
+    background: linear-gradient(110deg, #c2946a, #8a6333);
+    margin-bottom: 150px;
+    margin-top: 100px;
+    min-height: 300px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+#section-1{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section-1 p{
+    display: flex;
+    justify-content: baseline;
+    padding-right: 200px;
+    color: white;
+    max-width: 500px;
+    font-size: 18px;
+    float: left;
+    text-align: left;
+    font-weight: 900;
+    
+}
+
+#img1{
+    display: flex;
+    justify-content: end;
+    object-fit: contain;
+    padding-right: 80px;
+    width: 300px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+#section-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section-2 p{
+    display: flex;
+    margin-top: 50px;
+    padding-right: 200px;
+    color: white;
+    max-width: 650px;
+    font-size: 18px;
+    text-align: right;
+    font-weight: 900;
+}
+
+#section-2 img{
+    padding-left: 150px;
+    object-fit: contain;
+    padding-right: 200px;
+    width: 300px;
+
+}
+
+/* FOOTER */
+body{
+    background: #fcfcfc;
+}
+
+footer{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.dalemfooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dalemfooter p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.logososmed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    list-style: none;
+    margin: 1rem 0 3rem 0;
+}
+
+#sosmed{
+    width: 100%;
+}
+
+.logososmed li{
+    margin: 0 10px;
+}
+.logososmed a{
+    text-decoration: none;
+    color: #fff;
+}
+.logososmed a i{
+    font-size: 1.1rem;
+    transition: color 0.4s ease-out;
+
+}
+.logososmed a:hover i{
+    color: rgb(0, 200, 255);
+}
+
+#footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+@media (max-width: 800px){
+    .logososmed{
+        display: flex;
+        width: 100%;
+        height: auto;
+        list-style: none;
+        margin: 1rem 0 3rem 0;
+    }
+    #section-2 p{
+        display: flex;
+        height: auto;
+        width: 200px;
+    }
+}

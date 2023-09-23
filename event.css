@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* width: 810px; */
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#header{
+    background: linear-gradient(100deg, #c2946a, #8a6333);
+    display: flex;
+    width: 100%;
+    /* width: 800px; */
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+    padding-left: 20px;
+    padding-right: 25px;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+#bagianheader{
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#headerdalem{
+    display: flex;
+    /* background-color: bisque; */
+    width: 124px;
+    height: 80px;
+    align-items: center;
+}
+
+#txthead{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#txthead:hover{
+    height: 69px;
+}
+
+/* bagian isi */
+
+*{
+    color: #fff;
+}
+
+#isi{
+    width: 100%;
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(bgeventblur.jpg);
+    min-height: 1000px;
+}
+
+#heading1{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#heading2{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 90px;
+    font-family: 'Pacifico', cursive;;
+}
+
+#bagian1{
+    background-color: #8a6333aa;
+    display: flex;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+#bagian1 h1{
+    display: flex;
+    justify-content: center;
+}
+
+#imgevent{
+    width: 500px;
+}
+
+#isi p{
+    font-size: 20px;
+    display: flex;
+    padding-left: 100px;
+    width: 700px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+footer{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.logososmed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    list-style: none;
+    margin: 1rem 0 3rem 0;
+}
+
+#sosmed{
+    width: 100%;
+}
+
+.logososmed li{
+    margin: 0 10px;
+}
+.logososmed a{
+    text-decoration: none;
+    color: #fff;
+}
+.logososmed a i{
+    font-size: 1.1rem;
+    transition: color 0.4s ease-out;
+
+}
+.logososmed a:hover i{
+    color: rgb(0, 200, 255);
+}
+
+#footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+@media (max-width: 810px){
+    .logososmed{
+        display: flex;
+        width: 100%;
+        height: auto;
+        list-style: none;
+        margin: 1rem 0 3rem 0;
+    }
+}

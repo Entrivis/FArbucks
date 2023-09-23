@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#header{
+    background: linear-gradient(100deg, #c2946a, #8a6333);
+    display: flex;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+    padding-left: 20px;
+    padding-right: 25px;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+#bagianheader{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#headerdalem{
+    display: flex;
+    width: 124px;
+    height: 80px;
+    align-items: center;
+}
+
+#txthead{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#txthead:hover{
+    height: 69px;
+}
+
+#gbrbg{
+    width: 100%;
+    height: auto;
+}
+
+#bggambarkopi{
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(GbrKopi.jpg);
+    min-height: 600px;
+}
+
+#txtdalemgbr{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    background-color: #8a6333d5;
+    height: 600px;
+    font-family: 'Pacifico', cursive;
+    align-items: flex-end;
+    padding-right: 30px;
+}
+
+#txtdalemgbr p{
+    font-size: 90px;
+}
+
+#txtdalemgbr h2{
+    font-size: 40px;
+}
+
+#kotaktxt1{
+    margin-top: 60px;
+    width: 100%;
+    height: 200px;
+}
+
+#kotaktxt2{
+    margin-top: 200px;
+    width: 100%;
+    height: 200px;
+}
+
+#gbrBijiKopi{
+    width: 100%;
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(GbrBijiKopi.jpg);
+    min-height: 300px;
+}
+
+#txtdalemgbrbijikopi{
+    background-color: hsla(21, 81%, 10%, 0.796);
+    height: 300px;
+    width: auto;
+    color: aliceblue;
+    padding-left: 30px;
+}
+
+#gbrOM{
+    width: 100%;
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(OurMissionBG.jpg);
+    min-height: 200px;
+}
+
+#txtdalemgbrOM{
+    background-color: hsla(21, 81%, 10%, 0.796);
+    height: 200px;
+    width: auto;
+    color: aliceblue;
+}
+
+#text1{
+    display: flex;
+    font-size: 40px;
+}
+
+#text2{
+    display: flex;
+    width: 50%;
+    font-size: 25px;
+}
+
+#text3{
+    text-align: end;
+    font-size: 40px;
+    padding-right: 40px;
+}
+
+#text4{
+    text-align: end;
+    font-size: 25px;
+    padding-right: 40px;
+}
+
+#maps{
+    padding-top: 100px;
+    width: 100%;
+    height: 300px;
+}
+
+#FUO{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(100deg, #c2966a, #8a6333);
+    display: flex;
+    font-size: 50px;
+    width: 100%;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* FOOTER */
+body{
+    background: #fcfcfc;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.logososmed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    margin: 1rem 0 3rem 0;
+}
+
+#sosmed{
+    width: 100%;
+}
+
+.logososmed li{
+    margin: 0 10px;
+}
+.logososmed a{
+    text-decoration: none;
+    color: #fff;
+}
+.logososmed a i{
+    font-size: 1.1rem;
+    transition: color 0.4s ease-out;
+
+}
+.logososmed a:hover i{
+    color: rgb(0, 200, 255);
+}
+
+#footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+@media (max-width: 810px){
+    .logososmed{
+        display: flex;
+        width: 100%;
+        height: auto;
+        list-style: none;
+        margin: 1rem 0 3rem 0;
+    }
+    #text2{
+        width: 490px;
+    }
+}

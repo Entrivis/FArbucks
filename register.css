@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* width: 800px; */
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#header{
+    background: linear-gradient(100deg, #c2946a, #8a6333);
+    display: flex;
+    width: 100%;
+    /* width: 800px; */
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+    padding-left: 20px;
+    padding-right: 25px;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+#bagianheader{
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#headerdalem{
+    display: flex;
+    /* background-color: bisque; */
+    width: 120px;
+    height: 80px;
+    align-items: center;
+}
+
+#txthead{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight:bold ;
+}
+
+#txthead:hover{
+    height: 69px;
+}
+
+#bgform{
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(bgCafe.jpg);
+    min-height: 800px;
+}
+
+#kotakform{
+    background: linear-gradient(110deg, #c2946a, #8a6333);
+    width: 40%;
+    margin-top: 150px;
+    height: 450px;
+    border-radius: 5%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#kotak2{
+    width: 100%;
+    /* background-color: #76561e7f; */
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+#form{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 100%;
+}
+
+#form2{
+    /* background-color: #76561e7f; */
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+#txtform{
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+#buttonsub{
+    width: 100px;
+    border-radius: 15rem;
+}
+
+#button{
+    /* background-color: aquamarine; */
+    padding-top: 20px;
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+#malefemale{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+#check{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+footer{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color 0.4s ease;
+
+}
+.socials a:hover i{
+    color: rgb(0, 200, 255);
+}
+
+#footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+}
